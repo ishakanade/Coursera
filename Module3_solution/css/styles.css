@@ -1,0 +1,97 @@
+body {
+	font-size: 25px;
+	color:#fff;
+	background-color: orange;
+	font-family: 'Kaushan Script', cursive;
+}
+#header-nav {
+	background-color: purple;
+	border-radius: 0;
+	border:0;
+	padding: 45px;
+}
+.navbar-brand {
+	padding-top: 20px;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: white;
+	font-size: 2em;
+	font-transform:15px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	text-transform: uppercase;
+}
+
+.navbar-brand p{
+	color: #000;
+	font-size: .8em;
+	margin-top: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-brand p span {
+	vertical-align: middle;
+}
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a{
+	color: black;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+
+}
+#nav-list a span {
+	font-size: 0.7em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid black; 
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+}
+
+.container .text-center{
+	text-transform: uppercase;
+	padding-bottom: 50px;
+}
+#pavbhaji-tile, #panipuri-tile, #pizza-tile{
+	height: flex;
+	width:100%;
+	margin-bottom: 15px;
+	position: relative;
+    border:2px solid #d4af37;
+    background-color: black;
+    padding: 5px;
+
+}
+
+#pavbhaji-tile:hover, #panipuri-tile:hover, #pizza-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#pavbhaji-tile h2, #panipuri-tile h2, #pizza-tile h2{
+	text-align: center;
+    color: purple;
+}
+
+#pavbhaji-tile p, #panipuri-tile p, #pizza-tile p{
+	font-family: 'Lora', serif;
+	font-size: 0.8em;
+
+}
+div>a{
+	color: purple;
+}
+div>a:hover{
+	text-decoration-line: none;
+}
